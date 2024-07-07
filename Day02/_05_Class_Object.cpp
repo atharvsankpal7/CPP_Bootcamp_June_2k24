@@ -3,6 +3,9 @@ using namespace std;
 // class ClassName{};
 class Car
 {
+private:
+    int a;
+
 public:
     // member variables
     int noOfSeats;
@@ -19,7 +22,8 @@ public:
         cout << "Car stopped" << endl;
     }
 
-    void printName(){
+    void printName()
+    {
         cout << "The name of the car is " << name << endl;
     }
 };
@@ -51,7 +55,6 @@ int main()
     prajakta.printName();
 
     Car suhana;
-    suhana.name="Honda";
+    suhana.name = "Honda";
     suhana.printName();
-
 }
